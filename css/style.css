@@ -90,6 +90,7 @@ h2, h3, h4, h5, h6 {
     -o-transition: all 0.3s;
     transition: all 0.3s;
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .btn-primary:hover {
@@ -166,7 +167,7 @@ h2, h3, h4, h5, h6 {
     margin-top: 20px;
 }
 .section-title h2{
-    color: #eb7d17;
+    color: #e59142;
     font-size: 48px;
     font-family: 'PT Sans Narrow', Arial, sans-serif;
     text-transform: none;
@@ -954,9 +955,9 @@ iframe {
 
 .services-post {
   text-align: center;
+    padding-top: 10px;
     margin-bottom: 80px;
     box-shadow: 0 30px 40px rgba(0,0,0,.1);
-    border-width: 5px;
     color: rgb(232, 131, 94);
 }
 .services-post a:first-child {
@@ -1488,6 +1489,13 @@ textarea {
     color: rgb(219, 86, 37);
 }
 
+.about-text:hover {
+    font-weight: bold;
+    color: rgb(219, 86, 37);
+    box-shadow: 0 10px 40px rgba(0,0,0,.1);
+    background-color: #f1f2ee;
+}
+
 .about-text h2 {
     margin-bottom: 10px;
     margin-top: 15px;
@@ -1499,7 +1507,15 @@ textarea {
     margin-top: 5px;
     font-weight: bold;
     padding-top: 10px;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
+}
+
+.about-text2 {
+    margin-top: 5px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
 }
 
 .about-text2 h3 {
@@ -1514,14 +1530,6 @@ textarea {
     margin-top: 15px;
     font-weight: bold;
     color: rgb(219, 86, 37);
-}
-
-.about-text2 {
-    margin-top: 5px;
-    font-weight: bold;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: left;
 }
 a .fa:hover,
 .fa:hover{
