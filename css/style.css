@@ -1,12 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;1,200&family=Open+Sans:wght@500;600&family=Quicksand:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 /*------------------------------------------*/
 /*	     01 - General & Basic Styles
 /*------------------------------------------*/
 
 
 body {
-	font-family: 'Montserrat', Arial, sans-serif !important;
+	font-family: 'Roboto Condensed', sans-serif !important;
 	font-size: 16px;
     color: #4e7ad1;
     line-height: 21px;
@@ -71,7 +70,7 @@ h1{
     text-transform: uppercase;
     font-weight: 400;
 }
-h2, h3, h4, h5, h6 {
+h2, h3, h5, h6 {
     font-family: 'Montserrat', Arial, sans-serif;
     font-weight: 400;
     text-transform: uppercase;
@@ -82,7 +81,7 @@ h2, h3, h4, h5, h6 {
 
 .btn-primary {
     background: #fb8838;
-    border-color: #fb8838;
+    border-color: #2a50d8;
     font-size: 16px;
     padding: 8px 15px;
     -webkit-transition: all 0.3s;
@@ -96,7 +95,7 @@ h2, h3, h4, h5, h6 {
 .btn-primary:hover {
     background: transparent;
     border-color: #fb8838;
-    color: #fb8838;
+    color: #180e05;
 }
 
 .btn-secondary {
@@ -167,10 +166,11 @@ h2, h3, h4, h5, h6 {
     margin-top: 20px;
 }
 .section-title h2{
-    color: #e59142;
+    color: #f47d0e;
     font-size: 48px;
     font-family: 'PT Sans Narrow', Arial, sans-serif;
     text-transform: none;
+    margin-top: 10px;
 }
 
 .section-title p {
@@ -189,7 +189,7 @@ h2, h3, h4, h5, h6 {
 }
 
 .page-header h1 {
-    color: #df6e11;
+    color: #f47d0e;
 }
 
 
@@ -359,7 +359,7 @@ a.navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
     font-size: 40px;
     padding-top: 10px;
-    color: #fb8838 !important;
+    color: #f47d0e !important;
 }
 
 .navbar-default .navbar-nav {
@@ -416,7 +416,7 @@ a.navbar-brand {
     top: 97%;
     width: 180px;
 	background-color: #fff;
-    border-top: 3px solid #fb8838;
+    border-top: 3px solid #f47d0e;
     visibility: hidden;
     z-index: 2;
 	opacity: 0;
@@ -461,13 +461,13 @@ a.navbar-brand {
 
 .dropdown > li:hover > a, 
 .sup-dropdown li:hover > a {
-    background: #fb8838;
+    background: #f47d0e;
     color: #fff;
 }
 
 .dropdown  li a.active, 
 .sup-dropdown li a.active {
-	background: #fb8838;
+	background: #f47d0e;
     color: #fff;
 }
 
@@ -547,10 +547,11 @@ a.navbar-brand {
     -o-animation-duration: 2s;
     animation-duration: 2s;
     font-family: 'Montserrat', Arial, sans-serif;
+    color: #4e7ad1;
 }
 
 .banner .intro-text h1 span {
-    color: #fb8838;
+    color: #f47d0e;
 }
 
 .banner .intro-text p {
@@ -580,8 +581,8 @@ a.navbar-brand {
 }
 
 .banner .btn-primary:hover {
-	background: #fff;
-	border-color: #fff;
+	background: #1f2301;
+	border-color: #6072e3;
     color: #111;
 }
 
@@ -971,11 +972,11 @@ iframe {
   height: 100px;
   margin: 0 0 24px;
   line-height: 100px;
-  color: #fb8838;
+  color: #f47d0e;
   font-size: 30px;
   text-align: center;
   background: transparent;
-  border: 2px solid #fb8838;
+  border: 2px solid #f47d0e;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -o-border-radius: 50%;
@@ -1013,7 +1014,7 @@ iframe {
 .service-description{
     color: #ffffff !important;
 }
-.sub-services{
+.sub-services {
         text-align: justify;
         margin-bottom: 10px;
         background-color: #ececec83;
@@ -1025,11 +1026,11 @@ iframe {
     font-weight: bolder;
     margin-bottom: 10px;
     font-size: 16px;
-    color: rgb(213, 84, 38);
+    color: #f47d0e;
 }
+
 .sub-services p{
     font-size: 14px;
-    text-indent: 50px;
     margin-top: 10px;
 }
 .sub-services li{
@@ -1039,7 +1040,7 @@ iframe {
     margin-top: 10px;
 }
 .side-nav-links li a{
-    color: #fb8838;
+    color: #f47d0e;
     font-weight: bold;
 }
 .side-nav-links li a:hover{
@@ -1063,7 +1064,7 @@ iframe {
 
 
   .engagement-modals a:hover .fa{
-      color: #fb8838 !important;
+      color: #f47d0e !important;
   }
 
   .engagement-modals h2{
@@ -1291,7 +1292,7 @@ h3.pricing-title {
 }
 
 .footer-address ul li a:hover {
-    color: #fb8838;
+    color: #f47d0e;
 }
 
 .latest-tweet .media-body {
@@ -1305,7 +1306,7 @@ h3.pricing-title {
 
 .latest-tweet h4.media-heading {
     font-size: 10px;
-    color: #fb8838;
+    color: #f47d0e;
 }
 
 
@@ -1332,7 +1333,7 @@ h3.pricing-title {
 }
 
 .footer-social ul.social-list li a:hover {
-    background: #fb8838;
+    background: #f47d0e;
     color: #000;
 }
 
@@ -1391,7 +1392,7 @@ h3.pricing-title {
 }
 
 .copyright-menu li a:hover {
-    color: #fb8838;
+    color: #f47d0e;
 }
 
 /* End Copyright Section */
@@ -1493,7 +1494,6 @@ textarea {
     font-weight: bold;
     color: rgb(219, 86, 37);
     box-shadow: 0 10px 40px rgba(0,0,0,.1);
-    background-color: #f1f2ee;
 }
 
 .about-text h2 {
