@@ -140,15 +140,7 @@
                     <div class="col-md-12">
                         <h1>Infra & DevOps</h1>
                         <p class="service-description">
-                            At Mhastech, we understand the importance of a robust and reliable IT infrastructure for businesses. That's why we
-                            specialize in providing comprehensive IT infrastructure services that are customized to meet the unique needs of
-                            each of our clients. Our experienced team of professionals is equipped to handle server and storage management,
-                            networking, system integration, automation, and more. We use the latest technologies and tools to optimize the
-                            performance of IT infrastructure, reduce operational costs, and ensure reliable performance. Our DevOps services
-                            enable businesses to automate their processes and gain greater control over their IT infrastructure. This approach
-                            helps to accelerate the development, testing, and deployment of applications and services, ensuring that businesses
-                            can deliver them faster, with higher levels of reliability and quality. With MS, businesses can stay agile and
-                            responsive to the ever-changing market, enabling them to stay ahead of the competition.
+                            At MS, we understand the importance of a robust and reliable IT infrastructure for businesses. That's why we specialize in providing comprehensive IT infrastructure services that are customized to meet the unique needs of each of our clients. Our experienced team of professionals is equipped to handle server and storage management, networking, system integration, automation, and more. We use the latest technologies and tools to optimize the performance of IT infrastructure, reduce operational costs, and ensure reliable performance. Our DevOps services enable businesses to automate their processes and gain greater control over their IT infrastructure. This approach helps to accelerate the development, testing, and deployment of applications and services, ensuring that businesses can deliver them faster, with higher levels of reliability and quality. With MS, businesses can stay agile and responsive to the ever-changing market, enabling them to stay ahead of the competition.
                         </p>
 
                     </div>
@@ -249,11 +241,11 @@
                     <div class="footer-address">
                         <ul>
                             <li class="footer-contact"><i class="fa fa-home"></i>123, Second Street name, Address</li>
-                            <li class="footer-contact"><i class="fa fa-envelope"></i><a href="#">info@mhastech.com</a>
+                            <li class="footer-contact"><i class="fa fa-envelope"></i><a href="#">info@domain.com</a>
                             </li>
                             <li class="footer-contact"><i class="fa fa-phone"></i>+1 (123) 456-7890</li>
                             <li class="footer-contact"><i class="fa fa-globe"></i><a href="#"
-                                    target="_blank">www.mhastech.com</a></li>
+                                    target="_blank">www.domain.com</a></li>
                         </ul>
                     </div>
                 </div><!--/.col-md-3 -->
@@ -280,21 +272,34 @@
                             href="https://mhastech.com/">Mhastech</a>
                     </div>
                 </div>
-
-                <div class="col-md-5">
-                    <div class="copyright-menu pull-right">
-                        <ul>
-                            <li><a href="#" class="active">Home</a></li>
-                        </ul>
-                    </div>
-                </div>
             </div><!--/.row -->
         </div><!-- /.container -->
     </div>
     <!-- End Copyright Section -->
 
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
-
+    <script>
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
     <!-- Sulfur JS File -->
     <script src="../js/jquery-2.1.3.min.js"></script>
     <script src="../js/jquery-migrate-1.2.1.min.js"></script>

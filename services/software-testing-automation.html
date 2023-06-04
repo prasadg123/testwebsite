@@ -141,16 +141,7 @@
                     <div class="col-md-12">
                         <h1>Software Testing & Automation</h1>
                         <p class="service-description">
-                            At Mhastech, we understand that software testing and automation are critical components of the software development
-                            life cycle. That's why we offer comprehensive software testing and automation services to help our clients ensure
-                            the quality and reliability of their applications. Our experienced team of software testers and automation experts
-                            work closely with clients to develop customized solutions that meet their specific needs and budget. We use the
-                            latest technologies and tools to test and automate applications, ensuring that they are reliable, secure, and
-                            perform optimally. Our software testing and automation services include functional testing, regression testing,
-                            integration testing, system testing, performance testing, security testing, and more. By leveraging our software
-                            testing and automation services, clients can benefit from reduced risk, increased productivity, faster
-                            time-to-market, and improved quality. We are committed to building long-term relationships with our clients by
-                            providing reliable and cost-efficient
+                            At MS, we understand that software testing and automation are critical components of the software development life cycle. That's why we offer comprehensive software testing and automation services to help our clients ensure the quality and reliability of their applications. Our experienced team of software testers and automation experts work closely with clients to develop customized solutions that meet their specific needs and budget. We use the latest technologies and tools to test and automate applications, ensuring that they are reliable, secure, and perform optimally. Our software testing and automation services include functional testing, regression testing, integration testing, system testing, performance testing, security testing, and more. By leveraging our software testing and automation services, clients can benefit from reduced risk, increased productivity, faster time-to-market, and improved quality. We are committed to building long-term relationships with our clients by providing reliable and cost-efficient
                         </p>
 
                     </div>
@@ -189,25 +180,25 @@
                             <div class="sub-services">
                                 <h4>IT infrastructure assessment</h4>
                                 <p>
-                                    Our cloud computing consultants analyze critical infrastructure, application dependencies, estimated costs, and
-                                    business objectives to identify cloud use cases and optimization to help adopt cloud technology.
+                                    
+                    Our cloud computing consultants analyze critical infrastructure, application dependencies, estimated costs, and business objectives to identify cloud use cases and optimization to help adopt cloud technology.
+                    
                                 </p>
-                                </div>
-                                <div class="sub-services">
-                                    <h4>Development and deployment</h4>
-                                    <p>
-                                        We oversee cloud deployment and provide assistance in implementing cloud infrastructure, setting up practices to
-                                        streamline and automate the development and deployment.
-                                    </p>
-                                </div>
-                                <div class="sub-services">
-                                    <h4>Ongoing Support</h4>
-                                    <p>
-                                        We will monitor and maximize cloud resource utilization and expenditure, expand your cloud services offerings,
-                                        conduct compliance audits, and provide staff training to ensure your cloud operations are efficient</p>
-                                </div>
-                                
-                                </div>
+                            </div>
+                            <div class="sub-services">
+                                <h4>Development and deployment</h4>
+                                <p>
+                                    We oversee cloud deployment and provide assistance in implementing cloud infrastructure, setting up practices to streamline and automate the development and deployment.
+                                </p>
+                            </div>
+                            <div class="sub-services">
+                                <h4>Ongoing Support</h4>
+                                <p>
+                                    We will monitor and maximize cloud resource utilization and expenditure, expand your cloud services offerings, conduct compliance audits, and provide staff training to ensure your cloud operations are efficient</p>
+                            
+                            </div>
+                            
+                            </div>
                         <div class="col-md-6">
                             <div class="sub-services">
                                 <h4>Planning</h4>
@@ -284,21 +275,34 @@
                             href="https://mhastech.com/">Mhastech</a>
                     </div>
                 </div>
-
-                <div class="col-md-5">
-                    <div class="copyright-menu pull-right">
-                        <ul>
-                            <li><a href="#" class="active">Home</a></li>
-                        </ul>
-                    </div>
-                </div>
             </div><!--/.row -->
         </div><!-- /.container -->
     </div>
     <!-- End Copyright Section -->
 
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
-
+    <script>
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
     <!-- Sulfur JS File -->
     <script src="../js/jquery-2.1.3.min.js"></script>
     <script src="../js/jquery-migrate-1.2.1.min.js"></script>
