@@ -1,19 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;1,200&family=Open+Sans:wght@500;600&family=Quicksand:wght@500&display=swap');
+
 /*------------------------------------------*/
 /*	     01 - General & Basic Styles
 /*------------------------------------------*/
 
 
 body {
-	font-family: 'Roboto Condensed', sans-serif !important;
+	font-family: 'Open Sans', Arial, sans-serif !important;
 	font-size: 16px;
     color: #4e7ad1;
     line-height: 21px;
-/*	font-weight: 300;*/
     -webkit-font-smoothing: antialiased !important;
     -moz-osx-font-smoothing: grayscale !important;
     text-rendering: optimizeLegibility !important;
-    font-smoothing: antialiased !important;
     vertical-align: baseline;
 }
 strong, b {
@@ -70,7 +69,7 @@ h1{
     text-transform: uppercase;
     font-weight: 400;
 }
-h2, h3, h5, h6 {
+h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', Arial, sans-serif;
     font-weight: 400;
     text-transform: uppercase;
@@ -81,21 +80,19 @@ h2, h3, h5, h6 {
 
 .btn-primary {
     background: #fb8838;
-    border-color: #2a50d8;
+    border-color: #fb8838;
     font-size: 16px;
     padding: 8px 15px;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
-    margin-bottom: 10px;
-    margin-top: 10px;
 }
 
 .btn-primary:hover {
     background: transparent;
     border-color: #fb8838;
-    color: #180e05;
+    color: #fb8838;
 }
 
 .btn-secondary {
@@ -166,11 +163,10 @@ h2, h3, h5, h6 {
     margin-top: 20px;
 }
 .section-title h2{
-    color: #f47d0e;
+    color: #eb7d17;
     font-size: 48px;
     font-family: 'PT Sans Narrow', Arial, sans-serif;
     text-transform: none;
-    margin-top: 10px;
 }
 
 .section-title p {
@@ -189,7 +185,7 @@ h2, h3, h5, h6 {
 }
 
 .page-header h1 {
-    color: #f47d0e;
+    color: #df6e11;
 }
 
 
@@ -359,7 +355,7 @@ a.navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
     font-size: 40px;
     padding-top: 10px;
-    color: #f47d0e !important;
+    color: #fb8838 !important;
 }
 
 .navbar-default .navbar-nav {
@@ -416,7 +412,7 @@ a.navbar-brand {
     top: 97%;
     width: 180px;
 	background-color: #fff;
-    border-top: 3px solid #f47d0e;
+    border-top: 3px solid #fb8838;
     visibility: hidden;
     z-index: 2;
 	opacity: 0;
@@ -461,13 +457,13 @@ a.navbar-brand {
 
 .dropdown > li:hover > a, 
 .sup-dropdown li:hover > a {
-    background: #f47d0e;
+    background: #fb8838;
     color: #fff;
 }
 
 .dropdown  li a.active, 
 .sup-dropdown li a.active {
-	background: #f47d0e;
+	background: #fb8838;
     color: #fff;
 }
 
@@ -547,11 +543,10 @@ a.navbar-brand {
     -o-animation-duration: 2s;
     animation-duration: 2s;
     font-family: 'Montserrat', Arial, sans-serif;
-    color: #4e7ad1;
 }
 
 .banner .intro-text h1 span {
-    color: #f47d0e;
+    color: #fb8838;
 }
 
 .banner .intro-text p {
@@ -581,8 +576,8 @@ a.navbar-brand {
 }
 
 .banner .btn-primary:hover {
-	background: #1f2301;
-	border-color: #6072e3;
+	background: #fff;
+	border-color: #fff;
     color: #111;
 }
 
@@ -951,15 +946,11 @@ iframe {
 
 #service-section {
     padding-top: 80px;
-    padding-bottom: 40px;
 }
 
 .services-post {
   text-align: center;
-    padding-top: 10px;
-    margin-bottom: 80px;
-    box-shadow: 0 30px 40px rgba(0,0,0,.1);
-    color: rgb(232, 131, 94);
+    margin-bottom: 10px;
 }
 .services-post a:first-child {
   display: inline-block;
@@ -972,11 +963,11 @@ iframe {
   height: 100px;
   margin: 0 0 24px;
   line-height: 100px;
-  color: #f47d0e;
+  color: #fb8838;
   font-size: 30px;
   text-align: center;
   background: transparent;
-  border: 2px solid #f47d0e;
+  border: 2px solid #fb8838;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -o-border-radius: 50%;
@@ -1014,7 +1005,7 @@ iframe {
 .service-description{
     color: #ffffff !important;
 }
-.sub-services {
+.sub-services{
         text-align: justify;
         margin-bottom: 10px;
         background-color: #ececec83;
@@ -1026,11 +1017,10 @@ iframe {
     font-weight: bolder;
     margin-bottom: 10px;
     font-size: 16px;
-    color: #f47d0e;
 }
-
 .sub-services p{
     font-size: 14px;
+    text-indent: 50px;
     margin-top: 10px;
 }
 .sub-services li{
@@ -1040,16 +1030,12 @@ iframe {
     margin-top: 10px;
 }
 .side-nav-links li a{
-    color: #f47d0e;
+    color: #fb8838;
     font-weight: bold;
 }
 .side-nav-links li a:hover{
     color: #597ad1 !important;
     font-weight: bold;
-}
-
-.bullet-pointer {
-    list-style-type: square;
 }
 
 /*engagement models start*/
@@ -1064,7 +1050,7 @@ iframe {
 
 
   .engagement-modals a:hover .fa{
-      color: #f47d0e !important;
+      color: #fb8838 !important;
   }
 
   .engagement-modals h2{
@@ -1292,7 +1278,7 @@ h3.pricing-title {
 }
 
 .footer-address ul li a:hover {
-    color: #f47d0e;
+    color: #fb8838;
 }
 
 .latest-tweet .media-body {
@@ -1306,7 +1292,7 @@ h3.pricing-title {
 
 .latest-tweet h4.media-heading {
     font-size: 10px;
-    color: #f47d0e;
+    color: #fb8838;
 }
 
 
@@ -1333,7 +1319,7 @@ h3.pricing-title {
 }
 
 .footer-social ul.social-list li a:hover {
-    background: #f47d0e;
+    background: #fb8838;
     color: #000;
 }
 
@@ -1359,9 +1345,6 @@ h3.pricing-title {
     padding: 20px 0;
     background: #1d1d1d;
     color: #7f7f7f;
-    margin:auto;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .copyright {
@@ -1392,7 +1375,7 @@ h3.pricing-title {
 }
 
 .copyright-menu li a:hover {
-    color: #f47d0e;
+    color: #fb8838;
 }
 
 /* End Copyright Section */
@@ -1490,12 +1473,6 @@ textarea {
     color: rgb(219, 86, 37);
 }
 
-.about-text:hover {
-    font-weight: bold;
-    color: rgb(219, 86, 37);
-    box-shadow: 0 10px 40px rgba(0,0,0,.1);
-}
-
 .about-text h2 {
     margin-bottom: 10px;
     margin-top: 15px;
@@ -1507,15 +1484,7 @@ textarea {
     margin-top: 5px;
     font-weight: bold;
     padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.about-text2 {
-    margin-top: 5px;
-    font-weight: bold;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: left;
+    padding-bottom: 40px;
 }
 
 .about-text2 h3 {
@@ -1531,6 +1500,14 @@ textarea {
     font-weight: bold;
     color: rgb(219, 86, 37);
 }
+
+.about-text2 {
+    margin-top: 5px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+}
 a .fa:hover,
 .fa:hover{
     color: #fff !important;
@@ -1538,3 +1515,22 @@ a .fa:hover,
 .contactus{
     margin-top: 55px !important;
 }
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #fb8838;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
