@@ -946,12 +946,11 @@ iframe {
 
 #service-section {
     padding-top: 80px;
-    padding-bottom: 40px;
 }
 
 .services-post {
   text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 10px;
 }
 .services-post a:first-child {
   display: inline-block;
@@ -1525,7 +1524,7 @@ a .fa:hover,
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: red;
+    background-color: #fb8838;
     color: white;
     cursor: pointer;
     padding: 15px;
