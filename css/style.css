@@ -185,7 +185,7 @@ h2, h3, h4, h5, h6 {
 }
 
 .page-header h1 {
-    color: #df6e11;
+    color: #fb8838 !important;
 }
 
 
@@ -1507,6 +1507,12 @@ textarea {
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: left;
+}
+.about-text3{
+    margin-bottom: 10px;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #fb8838 !important;
 }
 a .fa:hover,
 .fa:hover{
