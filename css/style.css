@@ -1010,7 +1010,7 @@ iframe {
 .sub-services{
         text-align: justify;
         margin-bottom: 10px;
-        background-color: #ececec83;
+        background-color: white;
         padding: 2rem;
         border-radius: 25px;
         height: max-content;
@@ -1023,7 +1023,6 @@ iframe {
 }
 .sub-services p{
     font-size: 14px;
-    text-indent: 50px;
     margin-top: 10px;
 }
 .sub-services li{
@@ -1045,7 +1044,7 @@ iframe {
 .engagement-modals {
     text-align: justify;
     margin-bottom: 80px;
-    background-color: #f0df8583;
+    background-color: white;
     padding: 2rem;
     border-radius: 25px;
     min-height: 500px;
@@ -1074,7 +1073,7 @@ iframe {
   .engagement-modals p {
       min-height: 110px;
       margin-top: 1rem;
-      text-indent: 40px;
+      font-size: medium;
       font-size: 14px;
       font-weight: bold;
   }
@@ -1510,6 +1509,7 @@ textarea {
     margin-top: 5px;
     font-weight: bold;
     padding-top: 10px;
+    font-size: medium;
     padding-bottom: 10px;
     text-align: left;
 }
