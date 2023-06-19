@@ -635,7 +635,14 @@ iframe {
     margin-right: 10px;
 }
 
+.borderless td, .borderless th {
+    border: none  !important;
+}
 
+.table-header {
+    color: #fb8838;
+    font-weight: bold;
+}
 
 /** Toggles & Accordion **/
 
@@ -1251,7 +1258,7 @@ h3.pricing-title {
 }
 
 .footer-section .section-title {
-    color: #c5c5c5;
+    color: #e56510;
 }
 
 .footer-section .section-heading-2 span:after {
@@ -1551,11 +1558,12 @@ a .fa:hover,
   .sidebar {
     margin: 0;
     padding: 0;
+    margin-top: 50px;
     width: 200px;
     background-color: #f1f1f1;
-    position: fixed;
     height: 100%;
-    overflow: auto;
+    position: relative;
+    overflow-x: auto;
   }
   
   .sidebar a {
