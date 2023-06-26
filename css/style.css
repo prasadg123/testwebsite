@@ -1015,7 +1015,6 @@ iframe {
     color: #ffffff !important;
 }
 .sub-services{
-        text-align: justify;
         margin-bottom: 10px;
         background-color: white;
         padding: 2rem;
@@ -1029,6 +1028,7 @@ iframe {
     color: #fb8838;
 }
 .sub-services p{
+    text-align: start;	
     font-size: 14px;
     margin-top: 10px;
 }
