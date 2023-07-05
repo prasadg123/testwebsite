@@ -1049,11 +1049,10 @@ iframe {
 
 /*engagement models start*/
 .engagement-modals {
-    margin-bottom: 80px;
     background-color: white;
-    padding: 2rem;
+    padding: 2rem 2rem 0 2rem;
     border-radius: 25px;
-    min-height: 500px;
+    min-height: 450px;
   }
 
 
@@ -1070,9 +1069,9 @@ iframe {
     font-weight: 600;
   }
   .engagement-modals h3{
-    margin: 14px;
+    margin-top: 5%;
+    margin-left: 1rem;
     font-weight: bold;
-    text-align: center;
     color: #fb8838;
   }
 
@@ -1610,5 +1609,11 @@ a .fa:hover,
   .make-center {
     display: flex;
     justify-content: center;
+    align-items: center;
+  }
+
+  .make-left {
+    display: flex;
+    justify-content:start;
     align-items: center;
   }
