@@ -967,8 +967,8 @@ iframe {
   -moz-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
-  width: 100px;
-  height: 100px;
+  width: 75px;
+  height: 75px;
   margin: 0 0 24px;
   line-height: 100px;
   color: #fb8838;
