@@ -43,7 +43,7 @@ a {
 }
 
 a:hover , li{
-    color: #ffffff !important;
+    color: #2b5aba !important;
 }
 
 a, 
@@ -958,7 +958,7 @@ iframe {
 .services-post {
   text-align: center;
   margin-bottom: 10px;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 .services-post a:first-child {
   display: inline-block;
@@ -969,7 +969,6 @@ iframe {
   -o-transition: all 0.2s ease-in-out;
   width: 75px;
   height: 75px;
-  margin: 0 0 24px;
   line-height: 100px;
   color: #fb8838;
   font-size: 30px;
@@ -1468,7 +1467,7 @@ textarea {
 }
 .logo{
     width: 160px !important;
-    height: 50px !important;
+    height: 70px !important;
     padding-bottom: 5px;
 }
 .ourvalues h4{
