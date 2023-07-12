@@ -956,7 +956,6 @@ iframe {
 }
 
 .services-post {
-  text-align: center;
   margin-bottom: 10px;
   margin-top: 20px;
 }
@@ -969,9 +968,9 @@ iframe {
   -o-transition: all 0.2s ease-in-out;
   width: 75px;
   height: 75px;
-  line-height: 100px;
+  line-height: 73px;
   color: #fb8838;
-  font-size: 30px;
+  font-size: 40px;
   text-align: center;
   background: transparent;
   border: 2px solid #fb8838;
@@ -979,6 +978,7 @@ iframe {
   -moz-border-radius: 50%;
   -o-border-radius: 50%;
   border-radius: 50%;
+  margin-right: 1rem;
 }
 .services-post:hover a:first-child,
 .services-post a:first-child:hover {
@@ -996,9 +996,6 @@ iframe {
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 600;
-}
-.services-post p {
-    min-height: 110px;
 }
 .service-list li{
     color: #597ad1 !important;
@@ -1615,4 +1612,18 @@ a .fa:hover,
     display: flex;
     justify-content:start;
     align-items: center;
+  }
+
+@media screen and (max-width:768px) {
+    .service-div-block{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+  
+  }
+  @media screen and (min-width:768px) {
+    .service-div-block{
+        display: flex;
+        flex-direction: row;
+    }
   }
