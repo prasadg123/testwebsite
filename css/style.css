@@ -354,7 +354,8 @@ ul.social-list li a:hover i {
 a.navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
     font-size: 40px;
-    padding-top: 10px;
+    display: flex;
+    align-items: center;
     color: #fb8838 !important;
 }
 
@@ -564,6 +565,7 @@ a.navbar-brand {
     -moz-animation-duration: 2s;
     -o-animation-duration: 2s;
     animation-duration: 2s;
+    text-align: start;
 }
 
 .banner .intro-text .btn-primary {
@@ -1463,9 +1465,8 @@ textarea {
     margin-top: 30px;
 }
 .logo{
-    width: 160px !important;
-    height: 70px !important;
-    padding-bottom: 5px;
+    width: 16rem !important;
+    height: 5rem !important;
 }
 .ourvalues h4{
     margin-bottom: 3px;
@@ -1619,11 +1620,32 @@ a .fa:hover,
         display: flex;
         flex-direction: column-reverse;
     }
-  
+    .logo{
+        width: 16rem !important;
+        height: 5rem !important;
+    }
   }
   @media screen and (min-width:768px) {
     .service-div-block{
         display: flex;
         flex-direction: row;
+    }
+    .logo{
+        width: 12rem !important;
+        height: 4rem !important;
+    }
+    a.navbar-brand {
+        display: flex;
+        align-items: center;
+        color: #fb8838 !important;
+    }
+    .navbar-brand {
+        position: relative;
+        padding-top: 3.5rem !important;
+        margin: 0!important;
+        transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
     }
   }
