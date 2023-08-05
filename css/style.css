@@ -1620,7 +1620,7 @@ a .fa:hover,
         display: flex;
         flex-direction: column-reverse;
     }
-    .logo{
+    .logo {
         width: 16rem !important;
         height: 5rem !important;
     }
@@ -1632,7 +1632,7 @@ a .fa:hover,
     }
     .logo{
         width: 12rem !important;
-        height: 4rem !important;
+        height:4rem !important;
     }
     a.navbar-brand {
         display: flex;
